@@ -148,6 +148,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Utils\ErrorLogger.cpp" />
+    <ClCompile Include="Utils\StringConverter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\ErrorLogger.h" />
+    <ClInclude Include="Utils\StringConverter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
